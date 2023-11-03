@@ -1,0 +1,439 @@
+@media (max-width: 375px) {
+
+    .container {
+        max-width: 375px;
+        margin: 0 auto;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    h3 {
+        font-size: 28px;
+        letter-spacing: 1px;
+        line-height: normal;
+    }
+
+    h4 {
+        font-size: 24px;
+        letter-spacing: 0.857px;
+    }
+
+    .header__home {
+        background-image: url(../images/icons/main-mobile.png);
+    }
+
+    .main-product {
+        height: 510px;
+        // justify-content: center;
+    
+        &__info {
+            padding-top: 108px;
+            max-width: 328px;
+            // z-index: 3;
+            // display: flex;
+            // flex-direction: column;
+            // align-items: center;
+
+            &-type {
+                margin-bottom: 16px;
+            }
+
+            h1 {
+                font-size: 36px;
+                line-height: 40px; 
+                letter-spacing: 1.286px;
+                text-align: center;
+            }
+    
+    
+            &-about {
+                // text-align: center;
+                margin-bottom: 28px;
+                max-width: 328px;
+            }
+        }
+    
+        
+    }
+
+    .product {
+        flex-direction: column;
+        gap: 68px;
+        align-items: center;
+        padding-top: 92px;
+        padding-bottom: 120px;
+
+        &__types {
+            width: 327px;
+            padding: 88px 107px 22px 109px;
+
+        }
+
+
+    }
+
+    .pages-product {
+        padding-top: 172px;
+        padding-bottom: 120px;
+    }
+
+    .zx9 {
+        // flex-direction: column;
+        // gap: 32px;
+        padding: 55px 24px 55px 23px;
+        margin-bottom: 24px;
+        // align-items: center;
+
+        article {
+            gap: 32px;
+        }
+    
+    
+        &__photo {
+            width: 172px;
+            height: 207px;
+        }
+    
+        &__info {
+            // margin-top: 0px;
+            // display: flex;
+            // flex-direction: column;
+            // align-items: center;
+            max-width: 280px;
+            height: 251px;
+    
+            h2 {
+                // text-align: center;
+                font-size: 36px;
+                line-height: 40px;
+                letter-spacing: 1.286px;
+            }
+    
+            p {
+                // text-align: center;
+                margin-bottom: 24px;
+                // max-width: 280px;
+            }
+            
+        }
+    }
+
+    .zx7 {
+        background-image: url(../images/xz7-home-mobile.png);
+        margin-bottom: 24px;
+        padding-left: 24px;
+    }
+    
+    // .zx7 h5,
+    // .yx1 h5 {
+    //     margin-bottom: 32px;
+    // }
+    
+    
+    .yx1 {
+        gap: 24px;
+        flex-direction: column;
+        padding-bottom: 120px;
+        justify-content: space-between;
+
+        // img {
+        //     width: 339px;
+        //     height: 320px;
+        // }
+    
+        &__info {
+            padding: 41px 56px 41px 24px;
+        }
+    }    
+
+
+    .menu {
+        gap: 62px;
+    }
+
+    .audio-gear {
+        padding-bottom: 120px;
+        gap: 40px;
+
+        &__info {
+            max-width: 327px;
+
+        }
+
+        img {
+            width: 327px;
+            height: 300px;
+        }
+
+
+    }
+
+    .footer {
+        padding-bottom: 38px;
+
+        section {
+            padding-top: 52px;
+        }
+
+        &__decoration {
+            left: 137px;
+        }
+
+        &__nav {
+            gap: 48px;
+            align-items: center;
+            padding-bottom: 48px;
+
+        }
+
+        &__social {
+
+
+            &-about {
+                margin-bottom: 48px;
+                max-width: 327px;
+                text-align: center;
+            }
+
+            &-media {
+                bottom: -77px;
+                right: 135px;
+            }
+
+        }
+
+        &__copyright {
+            text-align: center;
+            margin-bottom: 72px;
+        }
+
+    }
+
+    .footer__nav-list {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    /*CATEGORY PAGE*/
+
+    .category-name {
+        min-height: 102px;
+
+        h3 {
+            letter-spacing: 2px;
+        }
+
+    }
+
+    .products {
+        padding: 64px 0px 0px 0px;
+
+        &__information {
+            gap: 32px;
+
+            &-img {
+                width: 327px;
+            }
+
+            &-details {
+                max-width: 327px;
+
+                &-new {
+                    margin-bottom: 24px;
+                }
+
+                h3 {
+                    margin-bottom: 24px;
+                }
+
+                
+
+            }
+        }
+    }
+
+    // .product {
+    //     padding-bottom: 160px;
+    // }
+
+    .audio-gear {
+        padding-bottom: 120px;
+    }
+
+    /*DETAILS PAGE*/
+
+    .details-menu {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .detail-products {
+        padding-top: 65px;
+        // padding-bottom: 88px;
+    
+        &__moveback {
+            top: 16px;
+        }
+    
+        &__information {
+            flex-direction: column;
+            gap: 32px;
+
+    
+            &-img {
+
+                width: 327px;
+                height: 327px;
+
+                // &_yx {
+                //     width: 185px;
+                //     height: 186px;
+                // }
+
+                // &_zx9 {
+                //     width: 167px;
+                //     height: 201px;
+                // }
+
+                &_zx7 {
+                    width: 140px;
+                    height: 216px;
+                }
+
+                &_xx99-two {
+                    // width: 181px;
+                    height: 215px;
+                }
+
+                // &_xx99-one {
+                //     width: 148px;
+                //     height: 193px;
+                // }
+
+                // &_xx59 {
+                //     width: 185px;
+                //     height: 193px;
+                // }
+            }
+    
+            &-more {
+                max-width: 327px;
+    
+                &-new {
+                    font-size: 14px;
+                    letter-spacing: 10px;
+                    margin-bottom: 24px;
+                }
+    
+                h3 {
+                    margin-bottom: 24px;
+                }
+
+                &-about {
+                    margin-bottom: 24px;
+                }
+
+                &-price {
+                    margin-bottom: 31px;
+                }
+
+            }
+        }
+    }
+
+    .features {
+        gap: 113px;
+        padding-top: 88px;
+
+        &__information {
+            gap: 24px;
+
+            // h4 {
+            //     font-size: 24px;
+            //     letter-spacing: 0.857px;
+            // }
+        }
+
+        &__box {
+            flex-direction: column;
+            gap: 24px;
+            width: 327px;
+
+            // h4 {
+            //     font-size: 24px;
+            //     letter-spacing: 0.857px;
+            // }
+        }
+    }
+
+    .photos {
+        padding: 88px 0px 120px 0px;
+        gap: 20px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        &__two-elements {
+
+            &_img1, &_img2 {
+                width: 327px;
+            }
+        }
+
+        &__img3 {
+            width: 327px;
+        }
+    }
+
+    .like {
+        gap: 40px;
+
+        // h4 {
+        //     font-size: 24px;
+        // }
+
+        &__products {
+            flex-direction: column;
+            gap: 56px;
+
+            &-category {
+
+                &_image {
+                    width: 327px;
+                    height: 120px;
+                    margin-bottom: 32px;
+
+                    &-xx99-one {
+                        width: 73px;
+                        height: 95px;
+                    }
+
+                    &-xx59 {
+                        width: 80px;
+                        height: 83px;
+                    }
+
+                    &-zx9 {
+                        width: 72px;
+                        height: 86px;
+                    }
+
+                    &-xx99-two {
+                        width: 87px;
+                        height: 96px;
+                    }
+
+                    &-zx7 {
+                        width: 61px;
+                        height: 87px;
+                    }
+                }
+
+            }
+        }
+
+
+    }
+
+}
